@@ -9,7 +9,8 @@ class RedditApi {
   static getAllHotPosts() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        resolve(Object.assign([], hotPosts.hotPosts));
+        resolve(Object.assign([], 
+        hotPosts.hotPosts));
       }, delay);
     });
   }

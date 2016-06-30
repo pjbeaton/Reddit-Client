@@ -1,4 +1,4 @@
-export const hotPosts = [{
+export const hotPosts = {
 	"kind": "Listing",
 	"data": {
 		"modhash": "",
@@ -522,4 +522,4 @@ export const hotPosts = [{
 		"after": "t3_4qeqrl",
 		"before": null
 	}
-}];
+};
