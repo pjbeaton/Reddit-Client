@@ -11,6 +11,9 @@ export function loadHotPostsSuccess(json) {
           hotPosts: sortedPosts};
 }
 
+//  This function should be calling the API to retrieve the Reddit data, but 
+//  I haven't been able to get this working correctly yet.
+
 // export function loadHotPosts() {
 //   return dispatch => {
 //     dispatch(beginAjaxCall());
@@ -21,6 +24,9 @@ export function loadHotPostsSuccess(json) {
 //     });
 //   };
 // }
+
+// Load hot posts from Reddit.  Need to add additional actions to pull more data and 
+// a parameter to allow the application to set how many posts to pull back.
 export function loadHotPosts() {
   return dispatch => {
     dispatch(beginAjaxCall());
